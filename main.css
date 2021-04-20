@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.body-background {
+    background: url(bg_light.png), linear-gradient(rgba(217,128,39,0.0) 25%, rgba(217,128,39,0.25));
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: 0% 100%;
+}
+
+.mountain {
+    position: fixed;
+    height: 210px;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background-image: url(fg.png);
+    background-repeat: repeat-x;
+    -webkit-transition: bottom 1.35s;
+    transition: bottom 1.35s;
+    cursor: default;
+    z-index: 999;
+}
+
+.bg {
+    background-image: linear-gradient(rgba(217,128,39,0.15),rgba(217,128,39,0.3));
+    transition: opacity 3s;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.opacity {
+    opacity: 1;
+}
+
+.helicoptor {
+    width: 80px;
+    height: 80px;
+    display: initial;
+    left: 713.85px;
+    top: 188.268px;
+    transform: rotate(0deg) scale(1.47753);
+    position: fixed;
+    cursor: default;
+    z-index: 999;
+    -webkit-user-select: none;
+}
