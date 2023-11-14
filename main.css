@@ -50,5 +50,6 @@ body {
     position: fixed;
     cursor: default;
     z-index: 999;
+    user-select: none;
     -webkit-user-select: none;
 }
